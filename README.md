@@ -294,7 +294,8 @@ render(<App1/>, document.getElementById('App1'))
 ```
 	
 
- - For Development with hot reloading
+### For Development with hot reloading
+ 
 	In `settings.py` use local WEBPACK_LOADER
 ```python
 WEBPACK_LOADER = {
@@ -305,13 +306,14 @@ WEBPACK_LOADER = {
 }
 
 ```
-	Run `python fabfiles_.py`
+Run `python fabfiles_.py`
 
-	Run `node server.js`
+Run `node server.js`
 
-	Edit...save...edit..
+Edit...save...edit..
 
- - For Production
+### For Production
+ 
  	In `settings.py` use stage WEBPACK_LOADER
 ```python
 WEBPACK_LOADER = {
@@ -323,13 +325,13 @@ WEBPACK_LOADER = {
 
 ```
 
-	Run `python fabfiles_.py`, assets folder will be updated
+Run `python fabfiles_.py`, assets folder will be updated
 
-	Commit changes
+Commit changes
 
-	Also commit `assets` folder
+Also commit `assets` folder
 
-	Push changes
+Push changes
 
 
 ### In web-server
