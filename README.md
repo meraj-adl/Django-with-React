@@ -91,7 +91,7 @@ project
 
 
  - Run `npm install`
-
+ 
  - Create webpack.base.config.js
 ```javascript
 var path = require("path")
