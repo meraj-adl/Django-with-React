@@ -267,7 +267,7 @@ call(cmd7)
 
 - Use the react bundle like this
 
-	##### index.html 
+##### index.html 
 ```html
 {% extends "base.html" %}
 {% load render_bundle from webpack_loader %}
@@ -276,10 +276,9 @@ call(cmd7)
 {% render_bundle 'vendors' %}
 {% render_bundle 'App1' %}
 {% endblock %}
-
 ```	
 
-	##### App1.jsx
+##### App1.jsx
 ```JavaScript
 import React from "react"
 import { render } from "react-dom"
